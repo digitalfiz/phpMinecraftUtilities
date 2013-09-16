@@ -1,5 +1,5 @@
 {
-    "name": "digitalfiz/minecraft",
+    "name": "digitalfiz/MinecraftUtilities",
     "description": "The package handles various tasks you may need to do with minecraft via your PHP script.",
     "authors": [
         {
