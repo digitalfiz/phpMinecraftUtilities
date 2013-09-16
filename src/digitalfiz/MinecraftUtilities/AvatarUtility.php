@@ -5,7 +5,7 @@
  * 
  * A lot of the code for `getAvatarFace` and `getFullAvatar` was adapted from work by Jamie Bicknell and his 
  * Minecraft-Avatar github repo at: https://github.com/jamiebicknell/Minecraft-Avatar Check it out if you want a much
- * similair implimentation.
+ * more simple implimentation.
  * 
  * @package  minecraft
  */
