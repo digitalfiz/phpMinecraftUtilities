@@ -1,0 +1,21 @@
+{
+    "name": "digitalfiz/minecraft",
+    "description": "The package handles various tasks you may need to do with minecraft via your PHP script.",
+    "authors": [
+        {
+            "name": "Marc Seiler",
+            "email": "mseiler@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-gd": "*",
+        "lib-curl":"*"
+    },
+    "autoload": {
+        "psr-0": {
+            "digitalfiz\\MinecraftUtilities": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
