@@ -1,4 +1,4 @@
-MinecraftUtilities [![Build Status](https://travis-ci.org/digitalfiz/MinecraftUtilities.png)](https://travis-ci.org/digitalfiz/MinecraftUtilities)
+Minecraft Utilities [![Build Status](https://travis-ci.org/digitalfiz/MinecraftUtilities.png)](https://travis-ci.org/digitalfiz/MinecraftUtilities)
 ==================
 
 ## Installation Via Composer
