@@ -12,3 +12,8 @@ Just add `digitalfiz/minecraft-utilities` to your require section of your compos
 ```
 
 Then do a `composer install` to get it added to your autoloader.
+
+
+## Usage
+
+Please see the wiki.
