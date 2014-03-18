@@ -1,9 +1,9 @@
 {
-    "name": "digitalfiz/minecraft-utilities",
+    "name": "digitalfiz/php-minecraft-utilities",
     "description": "The package handles various tasks you may need to do with minecraft via your PHP script.",
     "type":"library",
     "keywords":["minecraft", "php"],
-    "homepage":"http://digitalfiz.github.io/MinecraftUtilities/",
+    "homepage":"http://digitalfiz.github.io/phpMinecraftUtilities/",
     "license":"Apache-2.0",
     "authors": [
         {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-0": {
-            "digitalfiz\\MinecraftUtilities": "src/"
+            "digitalfiz\\phpMinecraftUtilities": "src/"
         }
     },
     "minimum-stability": "dev"

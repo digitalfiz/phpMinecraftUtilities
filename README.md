@@ -1,13 +1,13 @@
-Minecraft Utilities [![Build Status](https://travis-ci.org/digitalfiz/MinecraftUtilities.png)](https://travis-ci.org/digitalfiz/MinecraftUtilities)
+Minecraft Utilities [![Build Status](https://travis-ci.org/digitalfiz/phpMinecraftUtilities.png)](https://travis-ci.org/digitalfiz/phpMinecraftUtilities)
 ==================
 
 ## Installation Via Composer
 
-Just add `digitalfiz/minecraft-utilities` to your require section of your composer.json:
+Just add `digitalfiz/php-minecraft-utilities` to your require section of your composer.json:
 
 ```
     "require": {
-        "digitalfiz/minecraft-utilities": "*"
+        "digitalfiz/php-minecraft-utilities": "*"
     },
 ```
 

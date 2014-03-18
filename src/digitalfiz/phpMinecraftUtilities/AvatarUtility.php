@@ -1,12 +1,12 @@
-<?php namespace digitalfiz\MinecraftUtilities;
+<?php namespace digitalfiz\phpMinecraftUtilities;
 
 /**
  * Utility for managing a Minecraft avatar.
- * 
- * A lot of the code for `getAvatarFace` and `getFullAvatar` was adapted from work by Jamie Bicknell and his 
+ *
+ * A lot of the code for `getAvatarFace` and `getFullAvatar` was adapted from work by Jamie Bicknell and his
  * Minecraft-Avatar github repo at: https://github.com/jamiebicknell/Minecraft-Avatar Check it out if you want a much
  * more simple implimentation.
- * 
+ *
  * @package  minecraft
  */
 class AvatarUtility {
@@ -64,7 +64,7 @@ class AvatarUtility {
 
     /**
      * This returns the avatars face
-     * @param  string  $avatarName 
+     * @param  string  $avatarName
      * @param  integer $size
      * @param  string  $outputPath
      * @return bool/Exception
@@ -91,7 +91,7 @@ class AvatarUtility {
 
     /**
      * This returns the avatars full body
-     * @param  string  $avatarName 
+     * @param  string  $avatarName
      * @param  integer $size
      * @param  string  $outputPath
      * @return bool/Exception
@@ -109,7 +109,7 @@ class AvatarUtility {
             $av = imagecreatetruecolor(16,32);
             imagesavealpha($av,true);
             imagefill($av,0,0,imagecolorallocatealpha($av,0,0,0,127));
-        
+
             imagecopyresized($av,$im,4,0,8,8,8,8,8,8); // Head
             imagecopyresized($av,$im,4,8,20,20,8,12,8,12); // Chest
             imagecopyresized($av,$im,0,8,44,20,4,12,4,12); // Right Arm
